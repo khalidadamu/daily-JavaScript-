@@ -46,3 +46,5 @@ function sumOfPrimes(start, end) {
 
 const result = sumOfPrimes(10, 50);
 console.log(result); // Expected output: 328
+
+
