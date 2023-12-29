@@ -1,3 +1,5 @@
+const { fdatasync } = require("fs");
+
 const messiDetils = {
   name: "messi",
   lastName: "Leo",
@@ -14,10 +16,7 @@ const messiDetils = {
     return `${this.age}`;
   },
 };
-
-messiDetils.isMarried = true;
-messiDetils.hasChildren = true;
-messiDetils.nationalities = "Argentina";
+fdatasync;
 
 // console.log(messiDetils);
 // console.log(messiDetils["name"]);
