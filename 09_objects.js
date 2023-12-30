@@ -29,6 +29,7 @@ messiDetils.getSkills = function () {
 
   let skills = `${skillsWithoutSkills}, and ${lastSkill}`;
   let getFullName = this.getFullName();
+  vc;
   let statement = `${this.getFullName} is ${this.nationalities}. \n He lives 'in' the ${this.country} 'and' his man skillsets are ${this.skills}`;
   return statement;
 };
