@@ -48,7 +48,13 @@ for (let [Africa, Asia] of continent) {
 
 // TODO: destructuring Objects
 
-function areaOfRectangle(length, breath) {
-  return length * breath;
-}
-console.log(areaOfRectangle(10, 10));
+const objFootballers = {
+  leo: "Messi",
+  Cristiano: "Ronaldo",
+  Sergio: "Busquit",
+};
+
+let { leo, Cristiano, Sergio } = objFootballers;
+console.log(leo, Cristiano, Sergio);
+
+
