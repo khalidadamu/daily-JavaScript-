@@ -58,3 +58,12 @@ let { leo, Cristiano, Sergio } = objFootballers;
 console.log(leo, Cristiano, Sergio);
 
 
+console.log("%c30 Days Of JavaScript", "color:green"); // log output is green
+console.warn(
+  "%c30 Days%c %cOf%c %cJavaScript%c",
+  "color:green",
+  "",
+  "color:red",
+  "",
+  "color:yellow"
+);
