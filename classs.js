@@ -1,6 +1,6 @@
 // TODO: declaring classes
 
-class Person {
+class Person ggg {
   constructor(name, age) {
     console.log(this);
     this.name = name;
